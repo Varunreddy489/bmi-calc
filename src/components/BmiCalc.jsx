@@ -63,10 +63,10 @@ const BmiCalc = () => {
 
           <br />
           <div>
-            <label>Height (Meters)</label>
+            <label>Height (Centimeters)</label>
             <input
               className="height-input"
-              placeholder="Enter Height in Meters..."
+              placeholder="Enter Height in Centimeters..."
               type="number"
               value={height}
               onChange={(e) => setHeight(e.target.value)}
